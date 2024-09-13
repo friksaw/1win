@@ -1,0 +1,46 @@
+<svg class="logotype" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1000 400" style="enable-background:new 0 0 1000 400;" xml:space="preserve">
+	<path id="Path_89_" fill="url(#Path_1_)" d="M181.9,188c5-24.3-4-41.6-20.3-53c-14.9-9.9-33.7-11.4-53.5-1.5l-82.8,37.2c-20.8,9.4-29.7,33.7-20.8,54c9.4,20.8,33.2,29.7,54,20.8l10.9-5l-17.8,96.7c-5,29.2,13.9,53,39.7,58c27.3,5,54-12.9,58.5-40.2L181.9,188z"/>
+	<path id="Path_87_" fill="url(#Path_2_)" d="M934.5,127.8c-45.5-6.6-91.5,20-109.1,57.6l3-16.4c7.4-33.2-6.4-42.1-30.2-42.1h-30.7c-29.2,0-35.7,15.9-39.2,34.2l-35.7,198.3c-3,13.4-1,36.7,25.3,36.7h42.6c25.3,0,30.2-19.8,33.7-38.7l17.3-95.2c4-21.8,7.4-32.2,14.9-40.2c11.4-12.9,34.2-18.8,50.1-5.9c9.4,7.9,12.9,21.3,10.4,40.2l-17.3,103.1c-3.8,22.8,5.9,36.7,24.8,36.7H937c24.3,0,29.2-18.8,32.7-38.7l25-129.1C1005.9,181.8,989.5,135.8,934.5,127.8z"/>
+	<ellipse id="Oval_21_" fill="url(#Oval_1_)" cx="661.2" cy="52.5" rx="49.1" ry="48.6"/>
+	<path id="Path_86_" fill="url(#Path_3_)" d="M664.2,357.3c-3.5,20.8-9.4,38.7-33.7,38.7h-43.1c-20.8,0-28.3-15.4-24.3-35.7L598.7,161c3.5-21.3,12.9-34.2,39.2-34.2h32.7c27.8,0,34.7,13.4,28.8,42.1L664.2,357.3z"/>
+	<path id="Path_85_" fill="url(#Path_4_)" d="M190.7,126.8c10.9,12.9,23.8,28.8,17.3,67.4L191.2,285l3,72.9c0.5,26.3,13.4,37.7,35.2,37.7h55.5c17.3,0,24.8-13.4,31.7-30.2l42.1-103.6l4.5,99.1c0.5,21.8,11.4,35.2,31.7,35.2h63c17.8,0,25.3-10.9,33.2-30.2l80.8-198.3c8.9-20.3,3.5-40.6-18.3-40.6h-40.2c-14.9,0-25.3,5-31.2,19.3L427.6,279l-5-118.5c-1-25.3-12.9-33.7-27.3-33.7h-41.1c-16.4,0-25.8,6.4-30.7,18.8L269,279.5l-5-122c-0.5-22.8-8.4-30.7-26.8-30.7h-35.7H190.7L190.7,126.8z"/>
+
+	<defs>
+		<linearGradient id="Path_1_" gradientUnits="userSpaceOnUse" x1="92.1362" y1="-33.1628" x2="92.1362" y2="279.5366" gradientTransform="matrix(1 0 0 -1 0 400.0159)">
+			<stop  offset="0" style="stop-color:#0167CA"/>
+			<stop  offset="1" style="stop-color:#38A8FA"/>
+		</linearGradient>
+
+		<linearGradient id="Path_2_" gradientUnits="userSpaceOnUse" x1="844.7706" y1="-3.0757" x2="844.7706" y2="279.9471" gradientTransform="matrix(1 0 0 -1 0 400.0159)">
+			<stop  offset="0" style="stop-color:#C8C7C7"/>
+			<stop  offset="7.627892e-02" style="stop-color:#D6D5D5"/>
+			<stop  offset="0.216" style="stop-color:#E8E8E8"/>
+			<stop  offset="0.3802" style="stop-color:#F5F5F5"/>
+			<stop  offset="0.5898" style="stop-color:#FDFDFD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+
+		<linearGradient id="Oval_1_" gradientUnits="userSpaceOnUse" x1="661.1766" y1="274.0271" x2="661.1766" y2="412.9961" gradientTransform="matrix(1 0 0 -1 0 400.0159)">
+			<stop  offset="0" style="stop-color:#0167CA"/>
+			<stop  offset="1" style="stop-color:#38A8FA"/>
+		</linearGradient>
+
+		<linearGradient id="Path_3_" gradientUnits="userSpaceOnUse" x1="631.6597" y1="-3.5689" x2="631.6597" y2="279.3499" gradientTransform="matrix(1 0 0 -1 0 400.0159)">
+			<stop  offset="0" style="stop-color:#C8C7C7"/>
+			<stop  offset="7.627892e-02" style="stop-color:#D6D5D5"/>
+			<stop  offset="0.216" style="stop-color:#E8E8E8"/>
+			<stop  offset="0.3802" style="stop-color:#F5F5F5"/>
+			<stop  offset="0.5898" style="stop-color:#FDFDFD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+
+		<linearGradient id="Path_4_" gradientUnits="userSpaceOnUse" x1="383.3498" y1="-3.0604" x2="383.3498" y2="279.3484" gradientTransform="matrix(1 0 0 -1 0 400.0159)">
+			<stop  offset="0" style="stop-color:#C8C7C7"/>
+			<stop  offset="7.627892e-02" style="stop-color:#D6D5D5"/>
+			<stop  offset="0.216" style="stop-color:#E8E8E8"/>
+			<stop  offset="0.3802" style="stop-color:#F5F5F5"/>
+			<stop  offset="0.5898" style="stop-color:#FDFDFD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+	</defs>
+</svg>
