@@ -56,13 +56,8 @@
             },
             'highLowFolder': 'files\/html5\/high_low_v2'
         };
-if (window.matchMedia('(max-width: 768px)').matches) {
+if (window.matchMedia('(max-width: 1024px)').matches) {
 	CONFIG_GLOBAL.isMobile = true;
-}
-
-// Проверяем медиа-запрос для планшетов
-if (window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches) {
-	CONFIG_GLOBAL.isTablet = true;
 }
 
 // Если isMobile равен true, делаем редирект
