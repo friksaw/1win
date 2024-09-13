@@ -61,23 +61,44 @@
         },
         'highLowFolder': 'files\/html5\/high_low_v2'
     };
-    if (window.matchMedia('(max-width: 1024px)').matches) {
-        CONFIG_GLOBAL.isMobile = true;
-    }
+	function checkWidth() {
+		if (window.matchMedia('(max-width: 1024px)').matches) {
+			CONFIG_GLOBAL.isMobile = true;
+		} else {
+			CONFIG_GLOBAL.isMobile = false;
+		}
 
-    // Если isMobile равен true, делаем редирект
-    if (CONFIG_GLOBAL.isMobile) {
-        // Загружаем мобильный HTML-код
-        fetch('/1win/mobile.html')
-            .then(response => response.text())
-            .then(html => {
-                // Заменяем текущий контент на мобильный HTML
-                document.body.innerHTML = html;
-            })
-            .catch(error => {
-                console.error('Ошибка загрузки мобильного HTML:', error);
-            });
-    }
+		// Если isMobile равен true, делаем редирект
+		if (CONFIG_GLOBAL.isMobile) {
+			// Загружаем мобильный HTML-код
+			fetch('/1win/mobile.html')
+					.then(response => response.text())
+					.then(html => {
+						// Заменяем текущий контент на мобильный HTML
+						document.body.innerHTML = html;
+					})
+					.catch(error => {
+						console.error('Ошибка загрузки мобильного HTML:', error);
+					});
+		} else {
+			fetch('/1win/index.html')
+					.then(response => response.text())
+					.then(html => {
+						// Заменяем текущий контент на мобильный HTML
+						document.body.innerHTML = html;
+					})
+					.catch(error => {
+						console.error('Ошибка загрузки мобильного HTML:', error);
+					});
+		}
+	}
+
+	// Вызываем checkWidth при загрузке
+	window.onload = checkWidth;
+
+	// Вызываем checkWidth при изменении размера окна
+	window.addEventListener('resize', checkWidth);
+
     </script>
     <link href="uploads/pictures/apple-touch-icon-152x152-1.png" rel="shortcut icon" type="image/x-icon">
     <link href="uploads/pictures/apple-touch-icon-152x152-1.png" rel="mask-icon">
