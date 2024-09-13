@@ -1,0 +1,47 @@
+{
+	"short_name": "Вулкан",
+	"name": "Казино Вулкан",
+	"description": "Наше онлайн казино позволяет играть в лучшие игровые автоматы казино Вулкан, игры в аппараты используют всю вашу удачу и позволяет разбогатеть за минуту!",
+	"lang": "ru-RU",
+	"start_url": "/?utm_source=a2hs&sw_fetch=1",
+	"display": "standalone",
+	"theme_color": "#02214b",
+	"background_color": "#02214b",
+	"icons": [
+		{
+			"src": "/files/v3/img/touch_icons/icon_16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_128x128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_152x152.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/files/v3/img/touch_icons/icon_512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
