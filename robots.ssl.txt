@@ -1,0 +1,22 @@
+User-agent: Yandex
+Allow: /sitemap.xml
+Allow: /files/v3/ico/favicon.ico
+Disallow: /*/$
+Disallow: /*?tracker
+Disallow: /cashier
+Disallow: /registration
+Disallow: /profile
+Disallow: /shop
+Disallow: /vip_club
+Disallow: /achievements
+Disallow: /support
+Disallow: /tournaments
+Disallow: /about
+Disallow: /jackpot
+Disallow: /security
+Disallow: /responsible
+Disallow: /agreement
+Disallow: /*?source
+Disallow: /avoid_blocking
+
+Sitemap: https://1-win-bet.pw/sitemap.xml
