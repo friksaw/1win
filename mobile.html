@@ -69,6 +69,15 @@
             },
             'highLowFolder': 'files\/html5\/high_low_v2'
         };
+        if (window.matchMedia('(min-width: 768px)').matches) {
+            CONFIG_GLOBAL.isHtml5 = true;
+        }
+
+
+        // Если isMobile равен true, делаем редирект
+        if (CONFIG_GLOBAL.isHtml5) {
+            window.location.href = '/1win/index.html'; // Изменяем адрес в браузере
+        }
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="/uploads/pictures/apple-touch-icon-152x152-1.png">
     <link href="/uploads/pictures/apple-touch-icon-152x152-1.png" rel="mask-icon">

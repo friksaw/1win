@@ -56,27 +56,18 @@
             },
             'highLowFolder': 'files\/html5\/high_low_v2'
         };
-		if (window.matchMedia('(max-width: 768px)').matches) {
-			CONFIG_GLOBAL.isMobile = true;
-		}
+if (window.matchMedia('(max-width: 768px)').matches) {
+	CONFIG_GLOBAL.isMobile = true;
+}
 
-		// Проверяем медиа-запрос для планшетов
-		if (window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches) {
-			CONFIG_GLOBAL.isTablet = true;
-		}
+// Проверяем медиа-запрос для планшетов
+if (window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches) {
+	CONFIG_GLOBAL.isTablet = true;
+}
 
-		// Если isMobile равен true, загружаем мобильный HTML
-		if (CONFIG_GLOBAL.isMobile) {
-			// Загружаем мобильный HTML-код
-			fetch('/mobile.html')
-					.then(response => response.text())
-					.then(html => {
-						// Заменяем текущий контент на мобильный HTML
-						document.body.innerHTML = html;
-					})
-					.catch(error => {
-						console.error('Ошибка загрузки мобильного HTML:', error);
-					});
+// Если isMobile равен true, делаем редирект
+if (CONFIG_GLOBAL.isMobile) {
+	window.location.href = '/1win/mobile.html'; // Изменяем адрес в браузере
 }
 </script>
 <link rel="shortcut icon" type="image/x-icon" href="uploads/pictures/apple-touch-icon-152x152-1.png">
