@@ -73,7 +73,7 @@
         // Если isMobile равен true, делаем редирект
         if (CONFIG_GLOBAL.isMobile) {
             // Загружаем мобильный HTML-код
-            fetch('/mobile.html')
+            fetch('/1win/mobile.html')
                 .then(response => response.text())
                 .then(html => {
                     // Заменяем текущий контент на мобильный HTML
@@ -83,7 +83,7 @@
                     console.error('Ошибка загрузки мобильного HTML:', error);
                 });
         } else {
-            fetch('/index.html')
+            fetch('/1win/index.html')
                 .then(response => response.text())
                 .then(html => {
                     // Заменяем текущий контент на мобильный HTML
