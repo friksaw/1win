@@ -61,7 +61,16 @@ if (window.matchMedia('(max-width: 1024px)').matches) {
 
 // Если isMobile равен true, делаем редирект
 if (CONFIG_GLOBAL.isMobile) {
-	window.location.href = '/1win/mobile.html'; // Изменяем адрес в браузере
+	// Загружаем мобильный HTML-код
+	fetch('/mobile.html')
+			.then(response => response.text())
+			.then(html => {
+				// Заменяем текущий контент на мобильный HTML
+				document.body.innerHTML = html;
+			})
+			.catch(error => {
+				console.error('Ошибка загрузки мобильного HTML:', error);
+			});
 }
 </script>
 <link rel="shortcut icon" type="image/x-icon" href="uploads/pictures/apple-touch-icon-152x152-1.png">
