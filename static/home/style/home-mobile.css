@@ -59,16 +59,16 @@
     font-display: swap;
     font-family: SF Pro Text;
     font-style: normal;
-    font-weight: 100 900;
-    src: url(https://1win-cdn.com/fonts/SFNSText.c652402c.woff2) format("woff2-variations")
+    font-weight: 400 900;
+    src: url(/static/home/fonts/SFNSText.woff2) format("woff2-variations")
 }
 
 @font-face {
     font-display: swap;
     font-family: SF Pro Display;
     font-style: normal;
-    font-weight: 100 900;
-    src: url(https://1win-cdn.com/fonts/SFNSDisplay.2b5dc965.woff2) format("woff2-variations")
+    font-weight: 400 900;
+    src: url(/static/home/fonts/SFNSDisplay.woff2) format("woff2-variations")
 }
 
 @font-face {
@@ -76,7 +76,7 @@
     font-family: SF Mono;
     font-style: normal;
     font-weight: 400;
-    src: local("SF Mono Regular"),local("SFMono-Regular"),url(https://1win-cdn.com/fonts/SFMono-Regular.5a4074d2.woff2) format("woff2")
+    src: local("SF Mono Regular"),local("SFMono-Regular"),url(/static/home/fonts/SFMono-Regular.woff2) format("woff2")
 }
 
 @font-face {
@@ -84,7 +84,7 @@
     font-family: SF Mono;
     font-style: normal;
     font-weight: 700;
-    src: local("SF Mono Bold"),local("SFMono-Bold"),url(https://1win-cdn.com/fonts/SFMono-Bold.3d414bec.woff2) format("woff2")
+    src: local("SF Mono Bold"),local("SFMono-Bold"),url(/static/home/fonts/SFMono-Bold.woff2) format("woff2")
 }
 
 @font-face {
@@ -92,7 +92,7 @@
     font-family: SF Mono;
     font-style: normal;
     font-weight: 900;
-    src: local("SF Mono Heavy"),local("SFMono-Heavy"),url(https://1win-cdn.com/fonts/SFMono-Heavy.4e906ddc.woff2) format("woff2")
+    src: local("SF Mono Heavy"),local("SFMono-Heavy"),url(/static/home/fonts/SFMono-Heavy.woff2) format("woff2")
 }
 
 @font-face {
@@ -100,7 +100,7 @@
     font-family: Rocketfont;
     font-style: normal;
     font-weight: 400;
-    src: local("Rocketfont"),local("Rocketfont"),url(https://1win-cdn.com/fonts/Rocketfont.89e9a8d3.woff2) format("woff2")
+    src: local("Rocketfont"),local("Rocketfont"),url(/static/home/fonts/Rocketfont.woff2) format("woff2")
 }
 
 .VPicture_image_wmhVO,.VPicture_root_udHYK {
@@ -114,8 +114,8 @@
 
 .VPicture_opaqueImage_St2Jk {
     opacity: 1;
-    object-fit: var(3dc7072a);
-    object-position: var(1061d10f)
+    object-fit: var(--3dc7072a);
+    object-position: var(--1061d10f)
 }
 
 @-webkit-keyframes VIconSvgGradient_spin_laZqj {
@@ -172,7 +172,7 @@
 
 .home-offers-section-header-txt {
     font-size: 19px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .home-offers-section-header-linkP {
@@ -624,6 +624,7 @@ html {
 body {
     line-height: normal;
     margin: 0;
+    width: 100%;
     scroll-behavior: smooth;
     -webkit-text-decoration-skip: objects;
     text-decoration-skip: objects;
@@ -638,11 +639,11 @@ body {
 
 iframe,img {
     height: auto;
-    max-width: 100%
 }
 
 iframe {
-    border: none
+    border: none;
+    width: 100%;
 }
 
 table {
@@ -854,7 +855,8 @@ html {
     background-color: #090f1e;
     position: relative;
     top: 0;
-    top: var(--safe-area-inset-top,0)
+    top: var(--safe-area-inset-top,0);
+    width: 100%;
 }
 
 body {
@@ -874,7 +876,7 @@ body {
 
 .slider-item-img-desc {
     font-weight: 500;
-    opacity: .7;
+    opacity: .8;
     text-shadow: 1px 1px 3px #000;
     margin-top: 8px
 }

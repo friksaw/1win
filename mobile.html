@@ -70,15 +70,6 @@
             },
             'highLowFolder': 'files\/html5\/high_low_v2'
         };
-        if (window.matchMedia('(min-width: 1024px)').matches) {
-            CONFIG_GLOBAL.isHtml5 = true;
-        }
-
-
-        // Если isMobile равен true, делаем редирект
-        if (CONFIG_GLOBAL.isHtml5) {
-            window.location.href = '/1win/index.html'; // Изменяем адрес в браузере
-        }
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="/uploads/pictures/apple-touch-icon-152x152-1.png">
     <link href="/uploads/pictures/apple-touch-icon-152x152-1.png" rel="mask-icon">
@@ -139,7 +130,7 @@
 </div>
 <div id="main_gallery" class="home-slider">
     <div class="swiper-wrapper">
-        <div class="swiper-slide" style="position: relative; height: 152px">
+        <div class="swiper-slide" style="position: relative;">
             <img class="swiper-slide-img" src="static/home/img/01.png" alt=".">
             <div class="slider-item-img-content" style="z-index: 100000; position: absolute; top: 1%">
                 <div class="slider-item-img-title" style="font-size: 19.21px; z-index: 1000000000; letter-spacing: -0.176627px;">Бонус на депозит до 500% </div>
@@ -201,7 +192,7 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <div class="home-offers-section-header-txt">Казино </div>
+            <div style="font-weight: 700;" class="home-offers-section-header-txt">Казино </div>
             <div class="home-offers-section-header-linkP js-show-auth-mobile" onclick="window.location.href='https://t.me/one1win_voucher'">Все
             </div>
         </a>
@@ -351,7 +342,7 @@
                     </g>
                 </g>
             </svg>
-            <div class="home-offers-section-header-txt js-show-auth-mobile">Live-games </div>
+            <div style="font-weight: 700;" class="home-offers-section-header-txt js-show-auth-mobile">Live-games </div>
             <div class="home-offers-section-header-linkP js-show-auth-mobile" onclick="window.location.href='https://t.me/one1win_voucher'">Все
             </div>
         </a>
